@@ -1,0 +1,44 @@
+.pinomain{
+  background-color: green;
+}
+
+.pinotransp{
+  height: 200px;
+}
+
+.pinorect1{
+  height: 500px;
+  background-color: blue;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.pinorect2{
+  height: 500px;
+  background-color: red;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.pinorect3{
+  height: 500px;
+  background-color: yellow;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.contrapoligono-pino{
+  height: 400px;
+  margin-left: -10px;
+  margin-right: -10px;
+  background-color: #a0a0a0;
+  /*clip-path:polygon(0 0,50% 0,100% 0%,0 100%);*/
+  clip-path:polygon(0 200px,100% 0,100% 400px,0 400px)
+}
+
+.pinofoot{
+  height: 70px;
+  margin-left: -10px;
+  margin-right: -10px;
+  background-color: black;
+}
