@@ -33,7 +33,7 @@
   margin-right: -10px;
   background-color: #a0a0a0;
   /*clip-path:polygon(0 0,50% 0,100% 0%,0 100%);*/
-  clip-path:polygon(0 200px,100% 0,100% 400px,0 400px)
+  clip-path:polygon(0 17vw,100% 0,100% 400px,0 400px);
 }
 
 .pinofoot{
