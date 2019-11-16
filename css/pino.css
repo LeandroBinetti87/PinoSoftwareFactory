@@ -1,44 +1,59 @@
 .pinomain{
-  background-color: green;
+  background-color: #112233;
 }
 
 .pinotransp{
-  height: 200px;
+  height: 300px;
 }
 
 .pinorect1{
   height: 500px;
-  background-color: blue;
+  background-color: #2d3d66;
   margin-left: -10px;
   margin-right: -10px;
 }
 
 .pinorect2{
   height: 500px;
-  background-color: red;
+  background-color: #2d3d77;
   margin-left: -10px;
   margin-right: -10px;
 }
 
 .pinorect3{
   height: 500px;
-  background-color: yellow;
+  background-color: #2d3d88;
   margin-left: -10px;
   margin-right: -10px;
 }
 
 .contrapoligono-pino{
-  height: 400px;
+  height: 700px;
   margin-left: -10px;
   margin-right: -10px;
-  background-color: #a0a0a0;
+  background-color: #ffffff;
   /*clip-path:polygon(0 0,50% 0,100% 0%,0 100%);*/
-  clip-path:polygon(0 17vw,100% 0,100% 400px,0 400px);
+  clip-path:polygon(0 17vw,100% 0,100% 700px,0 700px);
+}
+
+.pinohead{
+    background:rgba(255,255,255,0.0);
+    position:fixed;
+    left:0;
+    top:0;
+    transition:background 0.5s ease;
+    color: white;
+    padding: 10px;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.pinohead-sticky{
+    background:#fff;
 }
 
 .pinofoot{
   height: 70px;
   margin-left: -10px;
   margin-right: -10px;
-  background-color: black;
+  background-color: white;
 }
