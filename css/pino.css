@@ -160,3 +160,29 @@
   /*padding-right: 30px;*/
   color: white;
 }
+
+@media screen and (max-width: 1200px){
+  .pinotransp{
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 940px){
+  .pinotransp{
+    height: 600px;
+  }
+
+  .pinorect3{
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .pinotransp{
+    height: 700px;
+  }
+
+  .pinorect3{
+    height: 700px;
+  }
+}
