@@ -34,20 +34,25 @@
   height: 700px;
   margin-left: -10px;
   margin-right: -10px;
-  background-color: #ffffff;
+  background-color: #dddddd;
   /*clip-path:polygon(0 0,50% 0,100% 0%,0 100%);*/
   clip-path:polygon(0 17vw,100% 0,100% 700px,0 700px);
 }
 
 .pinohead{
     background:rgba(255,255,255,0.0);
-    position:fixed;
+    position: sticky;
     left:0;
     top:0;
     transition:background 0.5s ease;
     color: white;
-    padding: 10px;
+    margin-left: 25px;
+    padding: 5px;
     font-family: Tahoma, Geneva, sans-serif;
+}
+
+.itemenu:hover{
+  background-color: #112240;
 }
 
 .pinohead-sticky{
