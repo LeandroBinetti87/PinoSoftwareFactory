@@ -1,0 +1,50 @@
+/*
+ * info: aca definimos los estilos generales que va a tener la página
+ *
+*/
+
+*,
+*::after,
+*::before{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+}
+
+/* tendriamos que poner las variables de color y de viewport para el responsive*/
+/**/
+
+
+img{
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+.container{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto; 
+}
+
+h1{
+    color: #444;
+    font-size: 1.6em;
+    font-weight: 200;
+}
+
+h2{
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 100;
+}
+
+h3{
+    color: black;
+}
+
+.titulo-seccion{
+    font-size: 1.4em;
+    color: steelblue;
+    text-align: left;
+}
