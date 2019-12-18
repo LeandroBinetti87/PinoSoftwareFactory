@@ -36,7 +36,7 @@
 }
 
 .contrapoligono-pino{
-  height: 284px;/*700px;*/
+  height: 400px;/*700px;*/
   margin-left: -10px;
   /*margin-right: -10px;*/
   background-color: #fff; /*#dddddd;*/
@@ -71,7 +71,9 @@
 
 .topnav{
   overflow: hidden;
-  width: 30%;
+  width: 100%; 
+  display: flex;
+  justify-content: space-around;
   padding-top: 20px;
 }
 
@@ -79,31 +81,22 @@
   float: right;
   color: #f2f2f2;
   text-align: center;
-  /*padding: 20px 4px;*/
   text-decoration: none;
-  font-size: 15px;
-}
-
-.box {
-  display: flex; /*xq?*/
-  justify-content: space-around;
-  /*background-color: red;*/
-
+  font-size:1.2rem;
 }
 
 .box div {
-  width: 40vw;
   height: 60px;
-  /*background-color: brown;*/
 }
 
 .pinotitulo {
- /* width: 50vw;*/
-  height: 50px;
+  height: auto;
   color: aliceblue;
   padding-top: 20px;
-  width: 40%;
-  /*background-color: green;*/
+  padding-bottom: 20px;
+  padding-left: 14%;
+  width: 100%; 
+  border-bottom: 1px solid rgba(255,255,255,.1);
 }
 
 .pinofoot{
@@ -176,7 +169,6 @@
   font-size: 20px;
   font-family: Tahoma, Geneva, sans-serif;
   text-align: right;
-  /*padding-right: 30px;*/
   color: white;
 }
 
@@ -189,6 +181,12 @@
 @media screen and (max-width: 940px){
   .pinotransp{
     height: 600px;
+  }.pinotransp{
+    height: 700px;
+  }
+
+  .pinorect3{
+    height: 700px;
   }
 
   .pinorect3{
@@ -203,5 +201,32 @@
 
   .pinorect3{
     height: 700px;
+  }
+}
+
+
+@media screen and (min-width: 780px) {
+  .box{
+    max-width: none;
+    display: flex;
+    justify-content:space-between;
+  }
+
+  .pinotitulo {
+     padding-top: 25px;
+     padding-left: 50px;
+     width: auto;
+     border-bottom: none;
+   }
+
+   .topnav{
+    width: auto;
+    display: block;
+    padding-top: 22px;
+    padding-right: 50px;
+  }
+
+  .topnav a {
+    font-size:1.1rem;
   }
 }
