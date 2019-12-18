@@ -25,7 +25,147 @@
 .servicio-img{
     margin-bottom: 10px;
 }
+.servicio__animacion{
+    /*border: 1px solid gray;*/
+    width: 200px;
+    height: 70px;
+    position: relative;
+}
+/*animacion del primer item*/
+.servicio__animacion--cuadrado{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: red;
+    top: 0px;
+    left: 0px;
+    animation-duration: 1s;
+    animation-name: anima_cuadrado;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    border-radius: 50%;
+}
 
+.servicio__animacion--c2{
+    top:20px;
+    
+}
+
+.servicio__animacion--c3{
+    top:40px;
+    
+}
+
+@keyframes anima_cuadrado{
+    from{
+        left: 0%;
+        transform: rotate(0deg);
+        border-radius: 50%;
+        background-color: black;
+    }
+
+    to{
+        left: 25%;
+        transform: rotate(180deg);
+        border-radius: 0%;
+        background-color: red;
+    }
+}
+
+/*fin animacion del primer item*/
+
+/*animacion del segundo item*/
+.servicio__animacion--circulo{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: rgb(81,135,254);
+    top: 10px;
+    left: 21px;
+    border-radius: 50%;
+}
+
+.servicio__animacion--rectangulo{
+    position: absolute;
+    height: 8px;
+    background-color: #000;
+    top: 25px;
+    left: 6px;
+}
+
+.servicio__animacion--r1{
+    width: 25px;
+    left: 14px;
+}
+
+.servicio__animacion--r2{
+    top:38px;
+    width: 40px;
+    left: 7px;
+}
+
+.servicio__animacion--r3{
+    top:52px;
+    width: 55px;
+    left:  0px;
+}
+
+@keyframes anima_cuadrado{
+    from{
+        left: 0%;
+        transform: rotate(0deg);
+        border-radius: 50%;
+        background-color: black;
+    }
+
+    to{
+        left: 25%;
+        transform: rotate(180deg);
+        border-radius: 0%;
+        background-color: red;
+    }
+}
+
+/*fin animacion del segundo item*/
+
+/*animacion del tercer item*/
+.servicio__animacion--ci{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: #000;
+    top: 20px;
+    left: 21px;
+    border-radius: 50%;
+}
+
+.servicio__animacion--ci2{
+    left: 35px
+}
+
+.servicio__animacion--ci3{
+    left: 50px
+}
+
+.servicio__animacion--cu{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    top: 0px;
+    left: 21px;
+}
+
+.servicio__animacion--cu2{
+    left: 35px;
+}
+
+.servicio__animacion--cu3{
+    left: 50px;
+}
+
+
+/*fin animacion del tercer item*/
 .servicios__titulo{
     display: block;
     width: 90%;
@@ -42,6 +182,7 @@
     .servicios__titulo{
         width: 80%;
         padding-left: 10px;
+        margin-bottom: 60px;
     }
 
     .servicio__container{
@@ -52,6 +193,45 @@
 
     .servicio__item{
         display: flex;
+    }
+
+    .servicio__animacion{
+        width: 130px;
+    }
+
+    .servicio__animacion--cuadrado{
+        width: 12px;
+        height: 12px;
+    }
+
+    .servicio__animacion--cuadrado{
+        margin-top: 10px;
+    }
+
+    .servicio__animacion--c2{
+        top:25px;
+        
+    }
+    
+    .servicio__animacion--c3{
+        top:50px;
+        
+    }
+
+    @keyframes anima_cuadrado{
+        from{
+            left: 0%;
+            transform: rotate(0deg);
+            border-radius: 50%;
+            background-color: black;
+        }
+    
+        to{
+            left: 35%;
+            transform: rotate(180deg);
+            border-radius: 0%;
+            background-color: red;
+        }
     }
 }
 
@@ -80,6 +260,10 @@
     .servicio__item-subtitulo{
         margin-bottom: 20px;
         font-size: 2rem;
+    }
+
+    .servicio__animacion{
+        height: 100px;
     }
 }
 
