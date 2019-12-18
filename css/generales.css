@@ -14,6 +14,11 @@
 /* tendriamos que poner las variables de color y de viewport para el responsive*/
 /**/
 
+body{
+    font-family: 'Zilla Slab', serif;
+    font-size: 16px;
+}
+
 
 img{
     height: auto;
@@ -34,6 +39,7 @@ h1{
 }
 
 h2{
+    font-family: 'Quicksand', sans-serif;
     color: #fff;
     font-size: 1.1em;
     font-weight: 100;
@@ -41,6 +47,7 @@ h2{
 
 h3{
     color: black;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .titulo-seccion{
