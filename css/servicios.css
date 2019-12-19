@@ -139,12 +139,17 @@
     border-radius: 50%;
 }
 
-.servicio__animacion--ci2{
-    left: 35px
+.servicio__animacion--cir1{
+    transform: translateX(30px);
 }
 
-.servicio__animacion--ci3{
-    left: 50px
+
+.servicio__animacion--cir2{
+    transform: rotate(120deg) translateX(30px);
+}
+
+.servicio__animacion--cir3{
+    transform: rotate(240deg) translateX(30px);
 }
 
 .servicio__animacion--cu{
@@ -152,16 +157,21 @@
     width: 10px;
     height: 10px;
     background-color: #000;
-    top: 0px;
+    top: 20px;
     left: 21px;
 }
 
+.servicio__animacion--cu1{
+    transform: rotate(60deg) translateX(30px);
+}
+
 .servicio__animacion--cu2{
-    left: 35px;
+    transform: rotate(180deg) translateX(30px);
 }
 
 .servicio__animacion--cu3{
-    left: 50px;
+    transform: rotate(300deg) translateX(30px);
+    background-color: red;
 }
 
 
