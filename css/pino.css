@@ -3,7 +3,10 @@
 }
 
 .pinotransp{
-  height: 500px;
+  height: 900px;
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow: hidden;
 }
 
 .pinotransp__button{
@@ -12,7 +15,7 @@
   padding: 15px 25px;
   color: #4267b2;
   display: block;
-  margin-left: 30px;
+  margin-left: 0px;
   margin-top: 30px;
 }
 
@@ -36,7 +39,7 @@
 }
 
 .contrapoligono-pino{
-  height: 400px;/*700px;*/
+  height: 100px;/*400px;*/
   margin-left: -10px;
   /*margin-right: -10px;*/
   background-color: #fff; /*#dddddd;*/
@@ -115,17 +118,17 @@
 
 .pinofontmain{
   padding-top: 200px;
-  padding-left: 30px;
-  width: 60vw;
-  font-size: 3.3em;
-  font-family: Verdana;
+  padding-left: 0px;
+  padding-right: 20px;
+  width: 100%;
+  font-size: 2.1em;
   color: white;
   font-family: 'Quicksand', sans-serif;
 }
 
 .pinofondoblanco{
   font-size: 30px;
-  font-family: Tahoma, Geneva, sans-serif;
+  /*font-family: Tahoma, Geneva, sans-serif;*/
   text-align: right;
   padding-top: 160px;
   padding-right: 20px;
@@ -133,7 +136,7 @@
 
 .pinofondoblancochico{
   font-size: 20px;
-  font-family: Tahoma, Geneva, sans-serif;
+  /*font-family: Tahoma, Geneva, sans-serif;*/
   text-align: right;
   padding-right: 20px;
 }
@@ -148,12 +151,13 @@
 }
 
 .pinofondoazulchico{
-  width: 60vw;
+  width: 100%;
   font-size: 20px;
-  font-family: Tahoma, Geneva, sans-serif;
   text-align: left;
-  padding-left: 30px;
+  padding-left: 0px;
+  padding-left: 0px;
   color: white;
+  margin-top: 20px;
 }
 
 .pinofondoazulder{
@@ -172,20 +176,19 @@
   text-align: right;
   color: white;
 }
-
+/*
 @media screen and (max-width: 1200px){
   .pinotransp{
-    height: 500px;
     padding-left: 50px;
   }
 }
 
 @media screen and (max-width: 940px){
   .pinotransp{
-    height: 600px;
-  }.pinotransp{
-    height: 700px;
-  }
+    /*height: 600px;*/
+ /* }.pinotransp{
+    /*height: 700px;*/
+ /* }
 
   .pinorect3{
     height: 700px;
@@ -197,17 +200,38 @@
 }
 
 @media screen and (max-width: 780px) {
-  .pinotransp{
-    height: 700px;
-  }
-
   .pinorect3{
     height: 700px;
   }
 }
+*/
 
+@media screen and (min-width: 480px) {
+  .pinotransp{
+    height: 700px;
+    padding-left: 40px;
+  }
+
+  .contrapoligono-pino{
+    height: 130px;
+  }
+
+  .pinofontmain{
+    padding-top: 250px;
+  }
+  
+}
 
 @media screen and (min-width: 780px) {
+  .pinotransp{
+    height: 650px;
+    padding-left: 40px;
+  }
+
+  .contrapoligono-pino{
+    height: 250px;
+  }
+
   .box{
     max-width: none;
     display: flex;
@@ -228,7 +252,38 @@
     padding-right: 50px;
   }
 
+  .pinofontmain{
+    width: 60vw;
+  }
+
   .topnav a {
     font-size:1.1rem;
+  }
+}
+
+
+@media screen and (min-width: 1200px){
+  .contrapoligono-pino{
+    height: 400px;
+  }
+
+  .pinotransp{
+    height: 650px;
+    overflow: visible;
+  }
+
+  .pinofontmain{
+    padding-top: 240px;
+    padding-left: 30px;
+    font-size: 3.3em;
+    color: white;
+  }
+
+  .pinofondoazulchico{
+    padding-left: 30px;
+  }
+
+  .pinotransp__button{
+    margin-left: 30px;
   }
 }

@@ -80,9 +80,11 @@
     width: 12px;
     height: 12px;
     background-color: rgb(81,135,254);
-    top: 10px;
+    /*top: 5px;*/
+    transform: translateY(15px);
     left: 21px;
     border-radius: 50%;
+    animation: anima_circulo linear 1.2s infinite alternate-reverse;
 }
 
 .servicio__animacion--rectangulo{
@@ -94,6 +96,7 @@
 }
 
 .servicio__animacion--r1{
+    animation: anima_r1 1.2s linear infinite alternate-reverse;
     width: 25px;
     left: 14px;
 }
@@ -110,29 +113,37 @@
     left:  0px;
 }
 
-@keyframes anima_cuadrado{
+@keyframes anima_circulo{
+    0%{
+        transform: translateY(15px);
+    }
+
+    50%{
+        transform: translateY(5px);
+    }
+    100%{
+        transform: translateY(40px)
+    }
+}
+
+@keyframes anima_r1{
     from{
-        left: 0%;
-        transform: rotate(0deg);
-        border-radius: 50%;
-        background-color: black;
+        opacity: 1;
     }
 
     to{
-        left: 25%;
-        transform: rotate(180deg);
-        border-radius: 0%;
-        background-color: red;
+        opacity: 0;
     }
 }
+
 
 /*fin animacion del segundo item*/
 
 /*animacion del tercer item*/
 .servicio__animacion--ci{
     position: absolute;
-    width: 12px;
-    height: 12px;
+    width: 13px;
+    height: 13px;
     background-color: #000;
     top: 20px;
     left: 21px;
@@ -140,41 +151,102 @@
 }
 
 .servicio__animacion--cir1{
-    transform: translateX(30px);
+    transform: translateX(25px);
+    animation: anima_cir1 4s linear infinite;
 }
 
 
 .servicio__animacion--cir2{
-    transform: rotate(120deg) translateX(30px);
+    transform: rotate(120deg) translateX(25px);
+    animation: anima_cir2 4s linear infinite;
 }
 
 .servicio__animacion--cir3{
-    transform: rotate(240deg) translateX(30px);
+    transform: rotate(240deg) translateX(25px);
+    animation: anima_cir3 4s linear infinite;
 }
+
+
+@keyframes anima_cir1{
+    from{
+        transform: rotate(0deg) translate(25px);
+    }
+    to{
+        transform: rotate(360deg) translate(25px);
+    }
+}
+
+@keyframes anima_cir2{
+    from{
+        transform: rotate(120deg) translate(25px);
+    }
+    to{
+        transform: rotate(480deg) translate(25px);
+    }
+}
+
+@keyframes anima_cir3{
+    from{
+        transform: rotate(240deg) translate(25px);
+    }
+    to{
+        transform: rotate(600deg) translate(25px);
+    }
+}
+
 
 .servicio__animacion--cu{
     position: absolute;
-    width: 10px;
-    height: 10px;
+    width: 12px;
+    height: 12px;
     background-color: #000;
     top: 20px;
     left: 21px;
+    
 }
 
 .servicio__animacion--cu1{
-    transform: rotate(60deg) translateX(30px);
+    transform: rotate(60deg) translateX(25px);
+    animation: anima_cu1 4s linear infinite;
 }
 
 .servicio__animacion--cu2{
-    transform: rotate(180deg) translateX(30px);
+    transform: rotate(180deg) translateX(25px);
+    animation: anima_cu2 4s linear infinite;
 }
 
 .servicio__animacion--cu3{
-    transform: rotate(300deg) translateX(30px);
+    transform: rotate(300deg) translateX(25px);
+    animation: anima_cu3 4s linear infinite;
     background-color: red;
 }
 
+@keyframes anima_cu1{
+    from{
+        transform: rotate(60deg) translate(25px);
+    }
+    to{
+        transform: rotate(420deg) translate(25px);
+    }
+}
 
+@keyframes anima_cu2{
+    from{
+        transform: rotate(180deg) translate(25px);
+    }
+    to{
+        transform: rotate(540deg) translate(25px);
+    }
+}
+
+@keyframes anima_cu3{
+    from{
+        transform: rotate(300deg) translate(25px);
+    }
+    to{
+        transform: rotate(660deg) translate(25px);
+    }
+}
 /*fin animacion del tercer item*/
 .servicios__titulo{
     display: block;
@@ -255,7 +327,7 @@
         padding-left: 0;
         padding-right: 450px;
         width: 85%;
-        font-size: 3.5em;
+        font-size: 4.2em;
     }
 
     .servicio__container{
@@ -269,7 +341,7 @@
 
     .servicio__item-subtitulo{
         margin-bottom: 20px;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .servicio__animacion{
