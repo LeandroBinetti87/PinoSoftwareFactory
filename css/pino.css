@@ -21,9 +21,29 @@
 
 
 .pinorect1{
-  height: 500px;
+  height: 600px;
   background-color: #2d3d66;
-  padding-top: 50px;
+  padding-top: 0px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.pinocuad1{
+  height: 600px;
+  width: 55%;
+  background-color: #2d3d66;
+  float: left;
+  padding: 20px;
+  padding-top: 40px;
+  padding-left: 50px;
+}
+
+.pinocuad2{
+  height: 600px;
+  width: 45%;
+  background-color: #6d6d66;
+  float: left;
+  padding: 20px;
+  padding-top: 40px;
 }
 
 .pinorect2{
@@ -74,7 +94,7 @@
 
 .topnav{
   overflow: hidden;
-  width: 100%; 
+  width: 100%;
   display: flex;
   justify-content: space-around;
   padding-top: 20px;
@@ -98,8 +118,9 @@
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 14%;
-  width: 100%; 
+  width: 100%;
   border-bottom: 1px solid rgba(255,255,255,.1);
+  font-family: 'Quicksand', sans-serif;
 }
 
 .pinofoot{
@@ -141,32 +162,34 @@
   padding-right: 20px;
 }
 
+
 .pinofondoazul{
-  width: 60vw;
+  /*width: 60vw;*/
+  width: 100%;
   font-size: 40px;
-  font-family: Tahoma, Geneva, sans-serif;
-  text-align: left;
-  padding-left: 30px;
+  /*font-family: Tahoma, Geneva, sans-serif;*/
+  text-align: center;
   color: white;
 }
 
 .pinofondoazulchico{
   width: 100%;
   font-size: 20px;
-  text-align: left;
+  text-align: center;
   padding-left: 0px;
   padding-left: 0px;
   color: white;
   margin-top: 20px;
 }
 
-.pinofondoazulder{
-  width: 96vw;
-  font-size: 40px;
-  font-family: Tahoma, Geneva, sans-serif;
-  text-align: right;
-  padding-right: 30px;
+.pinofondoazulmain{
+  padding-left: -10px;
+  padding-top: 10px;
+  width: 100%;
+  font-size: 1.2em;
   color: white;
+  font-family: 'Tahoma', sans-serif;
+  text-align: left;
 }
 
 .pinofondoazulchicoder{
@@ -219,7 +242,19 @@
   .pinofontmain{
     padding-top: 250px;
   }
-  
+
+  .pinorect1{
+    height: 600px;
+  }
+
+  .pinocuad1{
+    height: 600px;
+  }
+
+  .pinocuad2{
+    height: 600px;
+  }
+
 }
 
 @media screen and (min-width: 780px) {
@@ -259,6 +294,18 @@
   .topnav a {
     font-size:1.1rem;
   }
+
+  .pinorect1{
+    height: 400px;
+  }
+
+  .pinocuad1{
+    height: 400px;
+  }
+
+  .pinocuad2{
+    height: 400px;
+  }
 }
 
 
@@ -285,5 +332,21 @@
 
   .pinotransp__button{
     margin-left: 30px;
+  }
+
+  .pinofondoazulmain{
+    padding-left: 30px;
+  }
+
+  .pinorect1{
+    height: 400px;
+  }
+
+  .pinocuad1{
+    height: 400px;
+  }
+
+  .pinocuad2{
+    height: 400px;
   }
 }
