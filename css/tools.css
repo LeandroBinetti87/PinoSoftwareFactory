@@ -1,0 +1,102 @@
+.tools{
+    background-color: #f3f4f7;
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 70px;
+}
+
+.tools__titulo{
+    padding-bottom: 40px;
+    padding-left: 20px;
+    font-size: 2rem;
+}
+
+/*cabecera*/
+.tools__header{
+    padding-top: 70px;
+    padding-bottom: 35px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+    background: #16223b url(/wp-content/themes/fb-ai/release/static/media/pytorch-background-phone.6f42aea0.svg) top -6.3rem right/38.1rem no-repeat;
+    color: #fff;
+}
+
+.tools__header .icon-container svg {
+    height: 3.5rem;
+    fill: #ee4c2c;
+}
+
+
+.tools__header--titulo{
+    font-size: 2em;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+.tools__header--texto{
+    padding-right: 20px;
+    padding-bottom: 40px;
+    font-size: 1.6rem;
+    max-width: 500px;
+    line-height: 1.4;
+}
+
+.tools__links{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+
+.tools__links--headeritem{
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+/*---end cabecera---*/
+
+/* body */
+.tools__body{
+    background-color: #fff;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+    border-right: 2px solid #16223b;
+}
+
+.tools__body--figure{
+    width: 70px;
+    background-color: #eee;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.tools__body .tools__header--titulo{
+    color: #000;
+    font-size: 2em;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.tools__body--info{
+    color: #707681;
+}
+
+.tools__links--bodyitem{
+    color: steelblue;
+    font-size: 1.4rem;
+}
+
+.tools__button{
+    width: 200px;
+    background-color: #5990ff;
+    padding: 15px 25px;
+    color: #fff;
+    display: block;
+    font-size: 1.4rem;
+    margin: 0 auto;
+}
+/*---end body---*/
+
