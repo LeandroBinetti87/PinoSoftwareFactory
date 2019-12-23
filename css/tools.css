@@ -69,7 +69,7 @@
 .tools__body--figure{
     width: 70px;
     background-color: #eee;
-    padding: 15px;
+    padding: 30px;
     border-radius: 50%;
 }
 
@@ -100,3 +100,153 @@
 }
 /*---end body---*/
 
+@media (min-width:30em){
+
+    /*cabecera*/
+    .tools__header{
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+        color: #fff;
+    }
+
+    .tools__header--figure{
+        width: 50%;
+    }
+
+    .tools__header--info{
+        width: 50%;
+    }
+
+    .tools__header 
+    .tools__header--texto{
+        padding-right: 20px;
+        padding-bottom: 40px;
+        font-size: 1.2rem;
+        max-width: 700px;
+        line-height: 1.4;
+    }
+
+    .tools__header .icon-container svg {
+        height: 8.5rem;
+        margin-top: 100px;
+        margin-left: 30%;
+    }
+    
+    
+    .tools__header--titulo{
+        font-size: 2em;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        color: #fff;
+    }
+
+    .tools__links{
+        display: block;
+        justify-content: center;
+    }
+  
+    .tools__links--headeritem{
+        font-size: 1.2rem;
+        
+    }
+
+    .tools__links--headeritem:nth-child(2){
+        margin-left: 30px;
+    }
+
+    /*---end cabecera---*/
+
+
+    /* body */
+    .tools__body{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .tools__body--figure{
+        width: 100px;
+        height: 100px;
+        background-color: #eee;
+        border-radius: 50%;
+    }
+
+   
+    .tools__body--info{
+       padding-left: 40px;
+       width: 80%;
+    }
+
+    .tools__body .tools__header--texto {
+        max-width: 700px;
+    }
+
+    .tools__links--bodyitem{
+        color: steelblue;
+        font-size: 1.4rem;
+    }
+
+    .tools__links--bodyitem:nth-child(2){
+        margin-left: 30px;
+    }
+
+/*---end body---*/
+
+}
+
+
+@media (min-width:60em){
+
+     /*cabecera*/
+     .tools__header{
+        padding-bottom: 50px;
+    }
+
+    .tools__header 
+    .tools__header--texto{
+        padding-right: 20px;
+        padding-bottom: 40px;
+        font-size: 1.2rem;
+        max-width: 700px;
+        line-height: 1.4;
+    }
+
+    .tools__header .icon-container svg {
+        height: 11.5rem;
+        margin-top: 70px;
+        margin-left: 33%;
+    }
+    
+    
+    .tools__header--titulo{
+        font-size: 2em;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        color: #fff;
+    }
+
+    .tools__links{
+        display: block;
+        justify-content: center;
+    }
+  
+    .tools__links--headeritem{
+        font-size: 1.2rem;
+        
+    }
+
+    .tools__links--headeritem:nth-child(2){
+        margin-left: 30px;
+    }
+
+    /*---end cabecera---*/
+    .container__body{
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+    }
+
+    .tools__body{
+        width: 48%;
+    }
+}
