@@ -29,7 +29,7 @@
 
 .pinocuad1{
   height: 600px;
-  width: 55%;
+  width: 100%;
   background-color: #2d3d66;
   float: left;
   padding: 20px;
@@ -39,7 +39,7 @@
 
 .pinocuad2{
   height: 600px;
-  width: 45%;
+  width: 100%;
   background-color: #6d6d66;
   float: left;
   padding: 20px;
@@ -276,10 +276,12 @@
 
   .pinocuad1{
     height: 600px;
+    width: 100%;
   }
 
   .pinocuad2{
     height: 600px;
+    width: 100%;
   }
 
   .contenedorpinocelda{
@@ -337,10 +339,12 @@
 
   .pinocuad1{
     height: 400px;
+    width: 55%;
   }
 
   .pinocuad2{
     height: 400px;
+    width: 45%;
   }
 
   .contenedorpinocelda{
@@ -389,10 +393,12 @@
 
   .pinocuad1{
     height: 400px;
+    width: 55%;
   }
 
   .pinocuad2{
     height: 400px;
+    width: 45%;
   }
 
   .contenedorpinocelda{
