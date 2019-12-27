@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "pinosoftware-iafacebook";
+  src:url("fonts/pinosoftware-iafacebook.eot");
+  src:url("fonts/pinosoftware-iafacebook.eot?#iefix") format("embedded-opentype"),
+    url("fonts/pinosoftware-iafacebook.woff") format("woff"),
+    url("fonts/pinosoftware-iafacebook.ttf") format("truetype"),
+    url("fonts/pinosoftware-iafacebook.svg#pinosoftware-iafacebook") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "pinosoftware-iafacebook" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "pinosoftware-iafacebook" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-angle-right:before {
+  content: "\61";
+  display: block;
+  padding-left: 5px;
+}
+.icon-external-link:before {
+  content: "\62";
+  display: block;
+  padding-left: 5px;
+}

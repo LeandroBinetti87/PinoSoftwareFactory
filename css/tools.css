@@ -69,7 +69,7 @@
 .tools__body--figure{
     width: 70px;
     background-color: #eee;
-    padding: 30px;
+    padding: 20px;
     border-radius: 50%;
 }
 
@@ -84,11 +84,23 @@
     color: #707681;
 }
 
+
 .tools__links--bodyitem{
-    color: steelblue;
-    font-size: 1.4rem;
+    color: #4267b2;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.tools__links--bodyitem:nth-child(2){
+    margin-left: 30px;
+}
+
+.tool__link{
+    display: block;
+    color: #4267b2;
+}
 .tools__button{
     width: 200px;
     background-color: #5990ff;
@@ -118,13 +130,9 @@
         width: 50%;
     }
 
-    .tools__header 
+
     .tools__header--texto{
-        padding-right: 20px;
-        padding-bottom: 40px;
         font-size: 1.2rem;
-        max-width: 700px;
-        line-height: 1.4;
     }
 
     .tools__header .icon-container svg {
@@ -142,18 +150,14 @@
     }
 
     .tools__links{
-        display: block;
-        justify-content: center;
+        justify-content:flex-start;
     }
   
     .tools__links--headeritem{
         font-size: 1.2rem;
         
     }
-
-    .tools__links--headeritem:nth-child(2){
-        margin-left: 30px;
-    }
+ 
 
     /*---end cabecera---*/
 
@@ -165,8 +169,9 @@
     }
 
     .tools__body--figure{
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
+        padding: 20px;
         background-color: #eee;
         border-radius: 50%;
     }
@@ -183,12 +188,16 @@
 
     .tools__links--bodyitem{
         color: steelblue;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .tools__links--bodyitem:nth-child(2){
         margin-left: 30px;
     }
+
 
 /*---end body---*/
 
@@ -197,9 +206,24 @@
 
 @media (min-width:60em){
 
+    .tools{
+        padding-top: 70px;
+    }
+
      /*cabecera*/
      .tools__header{
         padding-bottom: 50px;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .tools__titulo{
+        font-size: 4.2rem;
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        padding-left: 0;
     }
 
     .tools__header 
@@ -225,11 +249,6 @@
         color: #fff;
     }
 
-    .tools__links{
-        display: block;
-        justify-content: center;
-    }
-  
     .tools__links--headeritem{
         font-size: 1.2rem;
         
@@ -241,6 +260,8 @@
 
     /*---end cabecera---*/
     .container__body{
+        width: 90%;
+        margin: 0 auto;
         display: flex;
         justify-content: space-around;
         padding: 0;
@@ -249,4 +270,11 @@
     .tools__body{
         width: 48%;
     }
+
+    .tools__body--figure{
+        width: 100px;
+        height: 100px;
+        padding: 20px;
+    }
+
 }
