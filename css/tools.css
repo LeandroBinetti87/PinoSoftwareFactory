@@ -38,7 +38,7 @@
 .tools__header--texto{
     padding-right: 20px;
     padding-bottom: 40px;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     max-width: 500px;
     line-height: 1.4;
 }
@@ -75,7 +75,7 @@
 
 .tools__body .tools__header--titulo{
     color: #000;
-    font-size: 2em;
+    font-size: 1.6em;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -87,7 +87,7 @@
 
 .tools__links--bodyitem{
     color: #4267b2;
-    font-size: 1.2rem;
+    font-size: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
