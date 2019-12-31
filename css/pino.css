@@ -47,7 +47,7 @@
 }
 
 .pinorect2{
-  height: 900px;
+  height: 1200px;
   background-color: #171d40;
   padding-top: 50px;
   padding-left: 100px;
@@ -196,6 +196,13 @@
 .contenedorpinocelda{
   height: 900px;
   width: 300px;
+  float: left;
+}
+
+.contenedorpinoceldader{
+  height: 200px;
+  width: 150px;
+  float: left;
 }
 
 .pinocelda{
@@ -205,6 +212,17 @@
   float: left;
   padding: 20px;
   margin-right: 10px;
+  margin-bottom: 10px;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+.pinoceldader{
+  background-color: #171d40;
+  height: 50px;
+  width: 50px;
+  float: right;
+  padding: 20px;
+  margin-left: 10px;
   margin-bottom: 10px;
   font-family: Tahoma, Geneva, sans-serif;
 }
@@ -287,10 +305,17 @@
   .contenedorpinocelda{
     height: 900px;
     width: 300px;
+    float: left;
+  }
+
+  .contenedorpinoceldader{
+    height: 200px;
+    width: 130px;
+    float: left;
   }
 
   .pinorect2{
-    height: 900px;
+    height: 1200px;
   }
 
 }
@@ -350,6 +375,13 @@
   .contenedorpinocelda{
     height: 500px;
     width: 530px;
+    float: left;
+  }
+
+  .contenedorpinoceldader{
+    height: 200px;
+    width: 130px;
+    float: left;
   }
 
   .pinorect2{
@@ -403,10 +435,21 @@
 
   .contenedorpinocelda{
     height: 500px;
-    width: 530px;
+    width: 580px;
+    float: left;
+  }
+
+  .contenedorpinoceldader{
+    height: 500px;
+    width: 400px;
+    float: left;
   }
 
   .pinorect2{
     height: 500px;
+  }
+
+  .pinoiconder{
+    float: right;
   }
 }
