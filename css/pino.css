@@ -21,14 +21,14 @@
 
 
 .pinorect1{
-  height: 1200px;
+  height: auto;
   background-color: #2d3d66;
   padding-top: 0px;
   font-family: 'Quicksand', sans-serif;
 }
 
 .pinocuad1{
-  height: 600px;
+  height: auto;
   width: 100%;
   background-color: #2d3d66;
   float: left;
@@ -38,7 +38,7 @@
 }
 
 .pinocuad2{
-  height: 600px;
+  height: auto;
   width: 100%;
   background-color: #6d6d66;
   float: left;
@@ -47,7 +47,7 @@
 }
 
 .pinorect2{
-  height: 1200px;
+  height: 1800px;
   background-color: #171d40;
   padding-top: 50px;
   padding-left: 100px;
@@ -300,16 +300,16 @@
   }
 
   .pinorect1{
-    height: 1200px;
+    height: auto;
   }
 
   .pinocuad1{
-    height: 600px;
+    height: auto;
     width: 100%;
   }
 
   .pinocuad2{
-    height: 600px;
+    height: auto;
     width: 100%;
   }
 
@@ -330,7 +330,7 @@
   }
 
   .pinorect2{
-    height: 1200px;
+    height: 1600px;
   }
 
 }
